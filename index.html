@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasty Bite Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="home">
+        <h1>Tasty Bite</h1>
+        <p>Welcome to Our Restaurant!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+
+        <h3>Cheese Burger</h3>
+        <img src="B1.jpg" width="500px"
+             alt="Cheese Burger">
+        <p>Price: 150 EGP</p>
+
+        <h3>Pizza</h3>
+        <img src="F1.jpg" width="500px"
+             alt="Pizza">
+        <p>Price: 200 EGP</p>
+
+        <h3>French Fries</h3>
+        <img src="ff.jpg" width="500px"
+             alt="French Fries">
+        <p>Price: 60 EGP</p>
+
+        <h3>Fresh Juice</h3>
+        <img src="jj.jpg" width="500px"
+             alt="Fresh Juice">
+        <p>Price: 50 EGP</p>
+    </section>
+
+    <hr>
+
+    <section id="order">
+        <h2>Make Your Order</h2>
+
+        <form>
+            <label>Your Name:</label>
+            <input type="text" required>
+
+            <br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" required>
+
+            <br><br>
+
+            <label>Choose Your Meal:</label>
+            <select>
+                <option>Burger</option>
+                <option>Pizza</option>
+                <option>Fries</option>
+                <option>Juice</option>
+            </select>
+
+            <br><br>
+
+            <label>Quantity:</label>
+            <input type="number" min="1">
+
+            <br><br>
+
+            <label>Special Instructions:</label>
+            <textarea></textarea>
+
+            <br><br>
+
+            <button type="button">Order Now</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: 01111111111</p>
+        <p>Location: Cairo, Egypt</p>
+        <p>Thank you for visiting!</p>
+    </footer>
+
+</body>
+</html>

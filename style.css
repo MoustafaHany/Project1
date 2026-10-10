@@ -1,0 +1,73 @@
+
+body {
+    background-color: #fff8ed;
+    color: #333333;
+    font-family: Arial;
+}
+
+header {
+    background-color: #87351f;
+    color: white;
+    text-align: center;
+    border: 3px solid #552010;
+}
+
+nav {
+    background-color: #ffe8c5;
+    text-align: center;
+}
+
+a {
+    color: #87351f;
+}
+
+h2 {
+    color: #87351f;
+    text-align: center;
+}
+
+h3 {
+    color: #87351f;
+    text-align: left;
+}
+
+section {
+    background-color: white;
+    border: 2px solid #eacdb7;
+}
+
+img {
+    border: 3px solid #87351f;
+}
+
+table {
+    border: 2px solid #87351f;
+}
+
+th {
+    background-color: #ffe8c5;
+}
+
+input {
+    border: 2px solid #87351f;
+}
+
+select {
+    border: 2px solid #87351f;
+}
+
+textarea {
+    border: 2px solid #87351f;
+}
+
+button {
+    background-color: #87351f;
+    color: white;
+    border: 2px solid #552010;
+}
+
+footer {
+    background-color: #87351f;
+    color: white;
+    text-align: center;
+}
